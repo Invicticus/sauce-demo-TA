@@ -22,15 +22,17 @@ The script includes the following test cases:
 
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
+
 - pytest
 - selenium
 - requests
-- You will also need to have a compatible browser and the corresponding webdriver installed. The webdriver used to run these tests is chromedriver.
+- You will also need to have a compatible browser and the corresponding webdriver installed.
 
 # **Running the Script**
 
-Clone the repository to your local machine.
-Install the required packages by running the command pip install -r requirements.txt.
-Download the appropriate webdriver for your browser and place it in the same directory as the script.
-Run the script by running the command python test_script.py.
+- Clone the repository to your local machine.
+- Install the required packages by running the command pip install -r requirements.txt.
+- Download the appropriate webdriver for your browser and place it in the same directory as the script.
+- Run the script by running the command python test_script.py.
+
 Note: The script assumes that the webdriver is named chromedriver and is for the Chrome browser. If you are using a different browser or a different webdriver, you will need to modify the script accordingly.
