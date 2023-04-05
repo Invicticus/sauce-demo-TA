@@ -3,7 +3,7 @@
 
 # **Project Description**
 
-This project was created based on a challenge issued by RealDecoy. This repository contains a Python script for testing a website using Selenium. The website being tested is https://www.saucedemo.com/.test. 
+This project was created based on a challenge issued by RealDecoy. This repository contains a Python script for testing a website using Selenium. The website being tested is https://www.saucedemo.com. 
 
 The script includes the following test cases:
 
@@ -23,10 +23,10 @@ The script includes the following test cases:
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
 
-pytest
-selenium
-requests
-You will also need to have a compatible browser and the corresponding webdriver installed. The webdriver used to run these tests is chromedriver.
+- pytest
+- selenium
+- requests
+- You will also need to have a compatible browser and the corresponding webdriver installed. The webdriver used to run these tests is chromedriver.
 
 # **Running the Script**
 
