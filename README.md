@@ -1,5 +1,5 @@
 # sauce-demo-TA
-**QA challenge issued to by RealDecoy**
+**QA challenge issued by RealDecoy**
 
 # **Project Description**
 
