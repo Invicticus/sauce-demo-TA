@@ -34,5 +34,7 @@ To run this script, you will need to have Python 3 and the following packages in
 - Install the required packages by running the command pip install -r requirements.txt.
 - Download the appropriate webdriver for your browser and place it in the same directory as the script.
 - Run the script by running the command python test_script.py.
+- Included in the repository is a HTML report based on the execution of the test cases. To run your own report, from the command line type pytest --html=reports/report.html
+
 
 Note: The script assumes that the webdriver is named chromedriver and is for the Chrome browser. If you are using a different browser or a different webdriver, you will need to modify the script accordingly.
