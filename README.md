@@ -21,7 +21,7 @@ The script includes the following test cases:
 - test_response: Tests the response of a URL and asserts that the status code is 200.
 
 # **Repository Branches**
-- master contains the README but no code
+- main contains the README but no code
 - <insert>
 
 # **Requirements**
