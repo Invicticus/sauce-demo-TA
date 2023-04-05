@@ -37,11 +37,11 @@ To run this script, you will need to have Python 3 and the following packages in
 # **Running the Script**
 
 - Clone the repository to your local machine.
-- Install the required packages by running the command pip install -r requirements.txt.
+- Install the required packages by running the command pip install -r requirements.txt (If .txt file is not present, from the command line in project directory run pip freeze > requirements.txt and then run the pip install -r requirements.txt command)
 - Download the appropriate webdriver for your browser.
 - To run tests, ensure you are in the correct directoy where the project is located and from the command line type python -m pytest
 - Included in the repository is a HTML report based on the execution of the test cases. To run your own report, from the command line type pytest --html=reports/report.html
-- To view html file in browser, navigate to the reports directory --> report.html --> right click --> Open in Browser --> Select browser of your choice
+- To view html file in browser, navigate to the reports directory --> report.html --> right click --> Open in Browser --> Select browser of your choice.
 - To run test cases in parallel from the command line type for example, python -m pytest -n 3 (3 in this example represents the number of threads to run)
 
 
