@@ -22,7 +22,6 @@ The script includes the following test cases:
 
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
-
 - pytest
 - selenium
 - requests
