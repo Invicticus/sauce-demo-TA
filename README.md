@@ -3,7 +3,7 @@
 
 # **Project Description**
 
-This project was created based on a challenge issued by RealDecoy. This repository contains a Python script for testing a website using Selenium. The website being tested is https://www.saucedemo.com. 
+This project was created based on a challenge issued by RealDecoy. This repository contains a Python script for testing a website using Selenium and pytest. The website being tested is https://www.saucedemo.com. 
 
 The script includes the following test cases:
 
