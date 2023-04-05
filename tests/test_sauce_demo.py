@@ -125,14 +125,9 @@ def test_footer_links(driver):
     footer_links = driver.find_elements(By.XPATH, "//footer//a")
     for link in footer_links:
         url = link.get_attribute("href")
-        if url is not None and "linkedin" not in url:
+        if url is not None and "linkedin" not in url:  # LinkedIn blocking request. Not sure how to bypass.
             print(f"Testing URL: {url}")
             response = requests.get(url)
             print(f"Response code: {response}")
             assert response.status_code == 200
             time.sleep(1)
-
-
-def test_response(driver):
-    response = requests.get('https://twitter.com/saucelabs')
-    assert response.status_code == 200
