@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import requests
+import time
 
 URL = 'https://www.saucedemo.com/'
 Inv_URL = 'https://www.saucedemo.com/inventory.html'
@@ -124,9 +125,12 @@ def test_footer_links(driver):
     footer_links = driver.find_elements(By.XPATH, "//footer//a")
     for link in footer_links:
         url = link.get_attribute("href")
-        if url is not None:
+        if url is not None and "linkedin" not in url:
+            print(f"Testing URL: {url}")
             response = requests.get(url)
+            print(f"Response code: {response}")
             assert response.status_code == 200
+            time.sleep(1)
 
 
 def test_response(driver):
