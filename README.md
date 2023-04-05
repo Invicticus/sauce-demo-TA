@@ -18,7 +18,6 @@ The script includes the following test cases:
 - test_filter_items2: Tests filtering the items by name (A to Z) and asserts that the items are displayed in the correct order.
 - test_checkout: Tests checking out by filling out the required form fields and asserts that the checkout is successful.
 - test_footer_links: Tests the footer links and asserts that each link returns a status code of 200.
-- test_response: Tests the response of a URL and asserts that the status code is 200.
 
 # **Repository Branches**
 - main contains the README but no code
