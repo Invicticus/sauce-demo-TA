@@ -28,14 +28,12 @@ def test_invalid_login(driver):
     assert "Epic sadface: Username and password do not match any user in this service" in driver.page_source
 
 
-# Inventory Page Tests
 def test_inventory_displayed_correctly(driver):
     test_valid_login(driver)
     items = driver.find_elements(By.CLASS_NAME, "inventory_item")
     assert len(items) == 6
 
 
-# Cart Page Tests
 def test_add_to_cart(driver):
     test_valid_login(driver)
     item = driver.find_element(By.XPATH, "//div[@class='inventory_item'][1]")
