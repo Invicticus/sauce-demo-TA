@@ -1,44 +1,37 @@
 # sauce-demo-TA
-** QA challenge issued to my by RealDecoy **
+**QA challenge issued to my by RealDecoy**
 
 # **Project Description**
 
-This project was created based on a challenge issued by RealDecoy. In this project you will find test files created using python, driven by selnium web driver and pytest. Below I will detail steps on how to run the web automation project.
+This project was created based on a challenge issued by RealDecoy. This repository contains a Python script for testing a website using Selenium. The website being tested is https://www.saucedemo.com/.test. 
 
-**Steps to run project**
+The script includes the following test cases:
 
-Repository Branches
-master contains the README but no code
-The <> contains the test code used to drive the web automation.
+test_valid_login: Tests a valid login by entering a valid username and password and asserts that the user is redirected to the inventory page.
+test_invalid_login: Tests an invalid login by entering an invalid username and password and asserts that an error message is displayed on the page.
+test_inventory_displayed_correctly: Tests that the inventory page displays the correct number of items.
+test_add_to_cart: Tests adding an item to the cart, asserts that the cart count is updated, and navigates to the cart page.
+test_remove_from_cart_from_inventory_page: Tests removing an item from the cart from the inventory page and asserts that the item is no longer in the cart.
+test_remove_from_cart: Tests removing an item from the cart from the cart page and asserts that the item is no longer in the cart.
+test_logout: Tests logging out and asserts that the user is redirected to the login page.
+test_filter_items1: Tests filtering the items by price (high to low) and asserts that the items are displayed in the correct order.
+test_filter_items2: Tests filtering the items by name (A to Z) and asserts that the items are displayed in the correct order.
+test_checkout: Tests checking out by filling out the required form fields and asserts that the checkout is successful.
+test_footer_links: Tests the footer links and asserts that each link returns a status code of 200.
+test_response: Tests the response of a URL and asserts that the status code is 200.
 
-Python Setup
-This course requires Python 3.11.2. You can download the latest Python version from Python.org and follow the appropriate installation instructions for your operating system.
-
-Python Installation and Tools
-You can complete this web automation using any OS: Windows, macOS, Linux, etc.
-
-You should also have a good Python editor/IDE. Good choices include PyCharm and Visual Studio Code.
-
-You will also need Git if you want to clone this repository locally. 
-
-This file will use a handful of third-party packages:
+# **Requirements**
+To run this script, you will need to have Python 3 and the following packages installed:
 
 pytest
-pytest-cov
-pytest-html
-pytest-xdist
+selenium
 requests
-These packages are not part of Python's standard library. They must be installed separately using pip, the standard Python package installer.
+You will also need to have a compatible browser and the corresponding webdriver installed. The webdriver used to run these tests is chromedriver.
 
-To install each package, enter pip install <package-name> at the command line. For example: pip install pytest. If you already have a package installed but need to upgrade its version, run pip install --upgrade <package-name>.
+# **Running the Script**
 
-Please note that if you need to use the python3 command to run Python, then you might also need to use the pip3 command in lieu of pip.
-
-Running Tests
-To run the example tests from the command line, run python -m pytest from the project root directory. This command will discover and run all tests in the project.
-
-You can also run tests using the shorter pytest command. However, I recommend always using the lengthier python -m pytest command. The lengthier command automatically adds the current directory to sys.path so that all modules in the project can be discovered.
-
-The pytest command has several command line options. Course material will cover many of them. Check out the Usage and Invocations page for complete documentation.
-
-
+Clone the repository to your local machine.
+Install the required packages by running the command pip install -r requirements.txt.
+Download the appropriate webdriver for your browser and place it in the same directory as the script.
+Run the script by running the command python test_script.py.
+Note: The script assumes that the webdriver is named chromedriver and is for the Chrome browser. If you are using a different browser or a different webdriver, you will need to modify the script accordingly.
