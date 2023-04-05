@@ -7,13 +7,10 @@ This project was created based on a challenge issued by RealDecoy. This reposito
 
 The script includes the following test cases:
 
-test_valid_login: Tests a valid login by entering a valid username and password and asserts that the user is redirected to the inventory page.
-
-test_invalid_login: Tests an invalid login by entering an invalid username and password and asserts that an error message is displayed on the page.
-
-test_inventory_displayed_correctly: Tests that the inventory page displays the correct number of items.
-
-test_add_to_cart: Tests adding an item to the cart, asserts that the cart count is updated, and navigates to the cart page.
+- test_valid_login: Tests a valid login by entering a valid username and password and asserts that the user is redirected to the inventory page.
+- test_invalid_login: Tests an invalid login by entering an invalid username and password and asserts that an error message is displayed on the page.
+- test_inventory_displayed_correctly: Tests that the inventory page displays the correct number of items.
+- test_add_to_cart: Tests adding an item to the cart, asserts that the cart count is updated, and navigates to the cart page.
 
 test_remove_from_cart_from_inventory_page: Tests removing an item from the cart from the inventory page and asserts that the item is no longer in the cart.
 
