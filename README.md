@@ -1,7 +1,7 @@
 # sauce-demo-TA
 ** QA challenge issued to my by RealDecoy **
 
-**Project Description**
+# **Project Description**
 
 This project was created based on a challenge issued by RealDecoy. In this project you will find test files created using python, driven by selnium web driver and pytest. Below I will detail steps on how to run the web automation project.
 
