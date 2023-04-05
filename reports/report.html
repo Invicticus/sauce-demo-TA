@@ -253,7 +253,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 05-Apr-2023 at 00:05:07 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 05-Apr-2023 at 11:41:51 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -269,7 +269,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.11.2</td></tr></table>
     <h2>Summary</h2>
-    <p>12 tests ran in 87.47 seconds. </p>
+    <p>12 tests ran in 97.79 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">11 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -285,16 +285,16 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_footer_links</td>
-          <td class="col-duration">6.04</td>
+          <td class="col-duration">11.40</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;5d65a3722803b82008178f5954991932&quot;)&gt;<br/><br/>    def test_footer_links(driver):<br/>        test_valid_login(driver)<br/>        footer_links = driver.find_elements(By.XPATH, &quot;//footer//a&quot;)<br/>        for link in footer_links:<br/>            url = link.get_attribute(&quot;href&quot;)<br/>            if url is not None:<br/>                response = requests.get(url)<br/>&gt;               assert response.status_code == 200<br/><span class="error">E               assert 999 == 200</span><br/><span class="error">E                +  where 999 = &lt;Response [999]&gt;.status_code</span><br/><br/>tests\test_sauce_demo.py:131: AssertionError<br/></div></td></tr></tbody>
+            <div class="log">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;3e77c864745a0893db1bdadceab4d9e0&quot;)&gt;<br/><br/>    def test_footer_links(driver):<br/>        test_valid_login(driver)<br/>        footer_links = driver.find_elements(By.XPATH, &quot;//footer//a&quot;)<br/>        for link in footer_links:<br/>            url = link.get_attribute(&quot;href&quot;)<br/>            if url is not None:<br/>                response = requests.get(url)<br/>&gt;               assert response.status_code == 200<br/><span class="error">E               assert 999 == 200</span><br/><span class="error">E                +  where 999 = &lt;Response [999]&gt;.status_code</span><br/><br/>tests\test_sauce_demo.py:129: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_valid_login</td>
-          <td class="col-duration">5.88</td>
+          <td class="col-duration">7.18</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -303,7 +303,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_invalid_login</td>
-          <td class="col-duration">4.83</td>
+          <td class="col-duration">4.85</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -312,7 +312,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_inventory_displayed_correctly</td>
-          <td class="col-duration">4.97</td>
+          <td class="col-duration">4.85</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -321,7 +321,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_add_to_cart</td>
-          <td class="col-duration">5.46</td>
+          <td class="col-duration">4.97</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -330,7 +330,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_remove_from_cart_from_inventory_page</td>
-          <td class="col-duration">5.00</td>
+          <td class="col-duration">7.11</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -339,7 +339,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_remove_from_cart</td>
-          <td class="col-duration">5.35</td>
+          <td class="col-duration">5.53</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -348,7 +348,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_logout</td>
-          <td class="col-duration">5.14</td>
+          <td class="col-duration">5.27</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -357,7 +357,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_filter_items1</td>
-          <td class="col-duration">6.68</td>
+          <td class="col-duration">5.20</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -366,7 +366,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_filter_items2</td>
-          <td class="col-duration">5.34</td>
+          <td class="col-duration">5.50</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -375,7 +375,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_checkout</td>
-          <td class="col-duration">5.31</td>
+          <td class="col-duration">5.88</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -384,7 +384,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/test_sauce_demo.py::test_response</td>
-          <td class="col-duration">4.59</td>
+          <td class="col-duration">6.66</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
