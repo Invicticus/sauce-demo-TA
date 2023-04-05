@@ -22,7 +22,7 @@ The script includes the following test cases:
 
 # **Repository Branches**
 - main contains the README but no code
-- test_code contains the automation scripts for the web automation tests.
+- test_code contains the automation scripts for the web automation tests and html report.
 
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
