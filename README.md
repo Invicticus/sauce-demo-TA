@@ -20,6 +20,10 @@ The script includes the following test cases:
 - test_footer_links: Tests the footer links and asserts that each link returns a status code of 200.
 - test_response: Tests the response of a URL and asserts that the status code is 200.
 
+# **Repository Branches**
+- master contains the README but no code
+- <insert>
+
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
 
