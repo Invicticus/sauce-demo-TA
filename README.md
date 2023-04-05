@@ -38,7 +38,7 @@ To run this script, you will need to have Python 3 and the following packages in
 
 - Clone the repository to your local machine.
 - Install the required packages by running the command pip install -r requirements.txt.
-- Download the appropriate webdriver for your browser and place it in the same directory as the script.
+- Download the appropriate webdriver for your browser.
 - Ensure you are in the correct directoy where the project is located and from the command line type python -m pytest
 - Included in the repository is a HTML report based on the execution of the test cases. To run your own report, from the command line type pytest --html=reports/report.html
 - To view html file in browser, navigate to the reports directory --> report.html --> right click --> Open in Browser --> Select browser of your choice
