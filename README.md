@@ -41,6 +41,7 @@ To run this script, you will need to have Python 3 and the following packages in
 - Download the appropriate webdriver for your browser and place it in the same directory as the script.
 - Run the script by running the command python test_script.py.
 - Included in the repository is a HTML report based on the execution of the test cases. To run your own report, from the command line type pytest --html=reports/report.html
+- To view html file, navigate to the reports directory --> report.html --> right click --> Open in Browser --> Select browser of your choice
 - To run test cases in parallel from the command line type python -m pytest -n 3 (3 in this example represents the number of threads to run)
 
 
