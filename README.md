@@ -11,22 +11,14 @@ The script includes the following test cases:
 - test_invalid_login: Tests an invalid login by entering an invalid username and password and asserts that an error message is displayed on the page.
 - test_inventory_displayed_correctly: Tests that the inventory page displays the correct number of items.
 - test_add_to_cart: Tests adding an item to the cart, asserts that the cart count is updated, and navigates to the cart page.
-
-test_remove_from_cart_from_inventory_page: Tests removing an item from the cart from the inventory page and asserts that the item is no longer in the cart.
-
-test_remove_from_cart: Tests removing an item from the cart from the cart page and asserts that the item is no longer in the cart.
-
-test_logout: Tests logging out and asserts that the user is redirected to the login page.
-
-test_filter_items1: Tests filtering the items by price (high to low) and asserts that the items are displayed in the correct order.
-
-test_filter_items2: Tests filtering the items by name (A to Z) and asserts that the items are displayed in the correct order.
-
-test_checkout: Tests checking out by filling out the required form fields and asserts that the checkout is successful.
-
-test_footer_links: Tests the footer links and asserts that each link returns a status code of 200.
-
-test_response: Tests the response of a URL and asserts that the status code is 200.
+- test_remove_from_cart_from_inventory_page: Tests removing an item from the cart from the inventory page and asserts that the item is no longer in the cart.
+- test_remove_from_cart: Tests removing an item from the cart from the cart page and asserts that the item is no longer in the cart.
+- test_logout: Tests logging out and asserts that the user is redirected to the login page.
+- test_filter_items1: Tests filtering the items by price (high to low) and asserts that the items are displayed in the correct order.
+- test_filter_items2: Tests filtering the items by name (A to Z) and asserts that the items are displayed in the correct order.
+- test_checkout: Tests checking out by filling out the required form fields and asserts that the checkout is successful.
+- test_footer_links: Tests the footer links and asserts that each link returns a status code of 200.
+- test_response: Tests the response of a URL and asserts that the status code is 200.
 
 # **Requirements**
 To run this script, you will need to have Python 3 and the following packages installed:
