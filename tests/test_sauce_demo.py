@@ -66,7 +66,6 @@ def test_remove_from_cart(driver):
     remove_button.click()
 
 
-
 def test_logout(driver):
     test_valid_login(driver)
     menu_button = driver.find_element(By.ID, "react-burger-menu-btn")
