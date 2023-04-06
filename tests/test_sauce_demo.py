@@ -64,7 +64,7 @@ def test_remove_from_cart(driver):
     item = driver.find_element(By.XPATH, "//div[@class='cart_item'][1]")
     remove_button = item.find_element(By.ID, "remove-sauce-labs-backpack")
     remove_button.click()
-    # assert "Your Cart is empty" in driver.page_source
+
 
 
 def test_logout(driver):
